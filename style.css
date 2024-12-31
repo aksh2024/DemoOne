@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/8e1b3910-6aa0-4f7e-977f-a5194f3687f4/161f7b6e-a5c1-46f1-9867-f42fa85cb1ec/IN-en-20221206-popsignuptwoweeks-perspective_alpha_website_small.jpg') no-repeat center center/cover;
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.login-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+}
+
+.login-form input::placeholder {
+    color: #aaa;
+}
+
+.btn-signin {
+    width: 100%;
+    padding: 12px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-signin:hover {
+    background-color: #f40612;
+}
+
+.options {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.options p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-secondary:hover {
+    background: white;
+    color: black;
+}
+
+.forgot-remember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.forgot-link {
+    color: #aaa;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
